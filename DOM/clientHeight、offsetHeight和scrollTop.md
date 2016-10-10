@@ -9,4 +9,11 @@ clientHeight和clientWidth：可见区域高/宽(不包含滚动条的宽/高，
 <h3>offsetHeight和offsetWidth。</h3>
 元素本身的高/宽，包含内边距和边框，不包括外边距；<br/>
 <h3>offsetTop和offsetLeft</h3>
-元素本身距离浏览器上方/左方的距离，包括外边距。<br/>
+元素本身距离上方(上层控件)/左方(左方控件)的距离。<br/>
+Ex:<br/>
+&lt;div class="EX"&gt;<br/>
+	    &lt;div&gt;ex1&lt;/div&gt;<br/>
+	  	&lt;div>ex2&lt;/div&gt;<br/>
+&lt;/div&gt;<br/>
+ex1的offsetTop是ex1距EX上边框的距离，因为距其上边最近的是EX层的上边框。ex2同理。
+
