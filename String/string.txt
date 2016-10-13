@@ -1,4 +1,11 @@
 # string
-1.substr()方法规定在字符串中抽取从start下标到指定数目的字符。(此方法在ECMA中没有规范，不推荐使用)；<br/>
-  语法：obj.substr(start,lebgth)
-  
+1.substr()方法规定在字符串中抽取从start下标到指定数目的字符。(此方法在ECMA中没有规范，不推荐使用)；
+  语法：obj.substr(start,length)；
+  start：必须，要抽取子串的起始下标，必须是数值。如果是负数，则从字符串尾部计算起始位置；
+  length：可选，子串中的字符数，必须是数字。如果省略该参数，返回从start开始到字符串结尾的字串；
+2.substring()方法规定提取介于俩个参数之间的字符；
+  语法：obj.substring(statr,stop)
+  start：必须。一个非负整数，规定要提取的字串的第一个字符在obj中的位置；
+  stop：可选。一个非负整数，比要提取字串最后一个字符在obj的位置多1；
+  返回值，一个新的字符串，该字符串是obj的一个子字符串。其内容是从start处到stop-1处的所有字符串，长度是stop-start；
+  说明：substring()方法返回的字串包含start处的字符，但不包含stop处的字符；如果start和stop相等，则返回空字符串；
