@@ -1,0 +1,4 @@
+# string
+1.substr()方法规定在字符串中抽取从start下标到指定数目的字符。(此方法在ECMA中没有规范，不推荐使用)；<br/>
+  语法：obj.substr(start,lebgth)
+  
